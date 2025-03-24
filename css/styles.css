@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Fallback for mobile and tablets */
 @media (max-width: 1024px), (hover: none) {
     .video-background {
-        background: url('https://images.pexels.com/photos/9223236/pexels-photo-9223236.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load') no-repeat center center;
+        background: url('https://www.pexels.com/photo/teacher-standing-beside-a-student-5427995/') no-repeat center center;
         background-size: cover;
     }
     .video-background video {
