@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umzimvelo Gallery | Cultivating Knowledge</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <style>
+        :root {
+            --primary-color: #2c8a4a;
+            --secondary-color: #f8f9fa;
+            --accent-color: #ffc107;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="fs-4">Umzimvelo</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#programs">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light ms-2" href="https://umzimvelo.moodlecloud.com/">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero parallax" style="background-image: url('photo/hero/hero_background.png')">
+        <div class="hero-overlay">
+            <h1 class="animate__animated animate__fadeInDown">Our Learning Journey</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">Moments that define Umzimvelo's spirit</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories py-5">
+        <div class="container">
+            <div class="category-nav text-center mb-5">
+                <button class="btn btn-outline-primary-custom active" data-filter="all">All</button>
+                <button class="btn btn-outline-primary-custom" data-filter="campus">Campus Life</button>
+                <button class="btn btn-outline-primary-custom" data-filter="classes">Class Moments</button>
+                <button class="btn btn-outline-primary-custom" data-filter="events">School Events</button>
+                <button class="btn btn-outline-primary-custom" data-filter="nature">Nature & Environment</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+
+                <!-- Class Moments -->
+                <div class="gallery-item classes" data-aos="fade-up" data-aos-delay="100">
+                    <img src="photo/class/1.heic" alt="Science experiment">
+                    <div class="gallery-overlay">
+                        <h3>Science Exploration</h3>
+                        <p>Discovering the wonders of chemistry</p>
+                    </div>
+                </div>
+                
+                <!-- School Events -->
+                <div class="gallery-item events" data-aos="fade-up" data-aos-delay="200">
+                    <img src="photo/events/1.jpg" alt="School graduation">
+                    <div class="gallery-overlay">
+                        <h3>#16 Days of Activism</h3>
+                        <p>Learners standing against GBV against women and children</p>
+                    </div>
+                </div> 
+				
+				<!-- School Events -->
+                <div class="gallery-item events" data-aos="fade-up" data-aos-delay="200">
+                    <img src="photo/events/3.jpg" alt="School graduation">
+                    <div class="gallery-overlay">
+                        <h3>#Bacck2the70s</h3>
+                        <p>Students and teachers having fun dressing up</p>
+                    </div>
+                </div>				
+				
+				<!-- School Events -->
+                <div class="gallery-item events" data-aos="fade-up" data-aos-delay="200">
+                    <img src="photo/events/4.jpg" alt="School graduation">
+                    <div class="gallery-overlay">
+                        <h3>2024 Sasol Science Fair</h3>
+                        <p>Leaners and teachers at the Science Fair competition</p>
+                    </div>
+                </div>
+                
+                <!-- Nature & Environment -->
+                <div class="gallery-item nature" data-aos="fade-up" data-aos-delay="300">
+                    <img src="photo/nature_environment/1.jpg" alt="School garden">
+                    <div class="gallery-overlay">
+                        <h3>The Hot House</h3>
+                        <p>Leaners building the hot house where they will keep their plantations</p>
+                    </div>
+                </div>
+				
+				<!-- Nature & Environment -->
+                <div class="gallery-item nature" data-aos="fade-up" data-aos-delay="300">
+                    <img src="photo/nature_environment/2.jpg" alt="School garden">
+                    <div class="gallery-overlay">
+                        <h3>AMP practicals</h3>
+                        <p>Grade 12 learners visiting a farm for their practicals</p>
+                    </div>
+                </div>
+				
+				<!-- Nature & Environment -->
+                <div class="gallery-item nature" data-aos="fade-up" data-aos-delay="300">
+                    <img src="photo/nature_environment/3.jpg" alt="School garden">
+                    <div class="gallery-overlay">
+                        <h3>Our Live Stock Farming</h3>
+                        <p>Our pigs that we keep in our farm<p>
+                    </div>
+                </div>
+				
+				<!-- Nature & Environment -->
+                <div class="gallery-item nature" data-aos="fade-up" data-aos-delay="300">
+                    <img src="photo/nature_environment/4.jpg" alt="School garden">
+                    <div class="gallery-overlay">
+                        <h3>AMP practicals</h3>
+                    </div>
+                </div>
+                
+                <!-- Campus Life -->
+                <div class="gallery-item campus" data-aos="fade-up">
+                    <img src="photo/campus_life/.jpeg" alt="Students studying">
+                    <div class="gallery-overlay">
+                        <h3>Study Sessions</h3>
+                        <p>Collaborative learning in our library</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Highlights -->
+    <section class="video-gallery parallax py-5" style="background-image: url('video/background/1.jpeg')">
+        <div class="container">
+            <h2 class="text-center mb-5 text-white">Some Epic Moments</h2>
+            
+            <div class="video-slider">
+                <div class="video-item">
+                    <video muted loop>
+                        <source src="photo/video/1.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <p>Teachers Back to the 70s</p>
+                    </div>
+                </div>
+                
+                <div class="video-item">
+                    <video muted loop>
+                        <source src="photo/video/2.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <p>Heritage Day Celebration</p>
+                    </div>
+                </div>                
+				
+				<div class="video-item">
+                    <video muted loop>
+                        <source src="photo/video/3.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <p>Sports Day</p>
+                    </div>
+                </div>
+                
+                <div class="video-item">
+                    <video muted loop>
+                        <source src="photo/video/4.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <i class="bi bi-play-circle-fill"></i>
+                        <p>Campus Tour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="gallery-lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <img id="expanded-img" src="" alt="">
+            <video id="expanded-video" controls style="display:none;">
+                <source src="video/1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Umzimvelo Online School. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">From the House of Nature, Cultivating Knowledge, Harvesting Futures</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>
